@@ -1,5 +1,7 @@
 // Write your code here!
-main.remove() ;
+
+main.remove();
 const newHeader=document.createElement("h1");
-newHeader.setAttribute('id', 'victory');
-newHeader.textContent="Leif is the champion";
+newHeader.id="victory";
+newHeader.textContent='Leif is the champion'
+document.body.append(newHeader)
